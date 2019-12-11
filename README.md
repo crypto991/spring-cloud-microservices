@@ -1,4 +1,4 @@
-# Microservices with Spring Boot and Spring Cloud
+# Currency Exchange microservices with Spring Boot and Spring Cloud
 
 
 
