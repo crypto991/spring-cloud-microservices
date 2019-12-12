@@ -22,7 +22,7 @@
 | Netflix Zuul API Gateway Server	| 8765 |
 | Zipkin Distributed Tracing Server | 9411 |
 
-#URLs
+# URLs
 
 
 | Application | URL |
@@ -37,7 +37,7 @@
 | Zipkin | http://localhost:9411/zipkin/ |
 | Spring Cloud Bus Refresh	| http://localhost:8080/bus/refresh |
 
-#Zipkin Installation
+# Zipkin Installation
 
 Quick Start Page
 * https://zipkin.io/pages/quickstart
@@ -50,7 +50,9 @@ Command to run
 RABBIT_URI=amqp://localhost java -jar zipkin-server-2.5.2-exec.jar
 ```
 # VM Arguments
+```bash
 -Dserver.port=8001
+```
 
 # Commands
 ```bash
